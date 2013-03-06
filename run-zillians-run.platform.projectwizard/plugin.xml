@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.zillians.dev.tools.flex.flatform.projectwizard.newWizards"
+         name="%extension.name"
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="com.zillians.dev.tools.flex.flatform.projectwizard.newWizards.category"
+            name="%category.name">
+      </category>
+      <wizard
+            canFinishEarly="false"
+            category="com.zillians.dev.tools.flex.flatform.projectwizard.newWizards.category"
+            class="com.zillians.dev.tools.flex.platform.projectwizard.newProject.ZilliansProjectWizard"
+            descriptionImage="icons/zcc.png"
+            icon="icons/zsgen.gif"
+            id="com.zillians.dev.tools.flex.flatform.projectwizard.newWizards.zilliansProjects"
+            name="%wizard.name"
+            project="true">
+      </wizard>
+   </extension>
+
+</plugin>

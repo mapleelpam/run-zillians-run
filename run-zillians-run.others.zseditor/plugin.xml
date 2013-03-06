@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.zillians.dev.tools.flex.others.zseditor"
+         name="%extension.name"
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.zillians.dev.tools.flex.others.zseditor.ZsEditor"
+            default="false"
+            icon="icons/sample.gif"
+            id="com.zillians.dev.tools.flex.others.zseditor.core"
+            name="%editor.name">
+      </editor>
+   </extension>
+
+</plugin>

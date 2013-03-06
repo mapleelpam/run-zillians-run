@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.zillians.dev.tools.flex.platform.core.feature_1.0.0.201103101318.jar" id="com.zillians.dev.tools.flex.platform.core.feature" version="1.0.0.201103101318">
+      <category name="com.zillians.dev.tools.flex.platform.category"/>
+   </feature>
+   <feature url="features/com.zillians.dev.tools.flex.platform.projectwizard.feature_1.0.0.201103101318.jar" id="com.zillians.dev.tools.flex.platform.projectwizard.feature" version="1.0.0.201103101318">
+      <category name="com.zillians.dev.tools.flex.platform.category"/>
+   </feature>
+   <feature url="features/com.zillians.dev.tools.flex.others.zseditor.feature_1.0.0.201103101318.jar" id="com.zillians.dev.tools.flex.others.zseditor.feature" version="1.0.0.201103101318">
+      <category name="com.zillians.dev.tools.flex.others.category"/>
+   </feature>
+   <feature url="features/com.zillians.dev.tools.flex.others.zxmleditor.feature_1.0.0.201103101318.jar" id="com.zillians.dev.tools.flex.others.zxmleditor.feature" version="1.0.0.201103101318">
+      <category name="com.zillians.dev.tools.flex.others.category"/>
+   </feature>
+   <category-def name="com.zillians.dev.tools.flex.platform.category" label="Zillians Flex Paltform"/>
+   <category-def name="com.zillians.dev.tools.flex.others.category" label="Zillians Flex Others"/>
+</site>

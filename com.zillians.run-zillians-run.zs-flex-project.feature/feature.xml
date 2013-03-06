@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.zillians.run_zillians_run.zs_flex_project.feature"
+      label="ZsFlexFeature"
+      version="1.0.0.qualifier"
+      provider-name="ZILLIANS">
+
+   <description url="http://code.google.com/p/run-zillians-run/">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="com.zillians.run-zillians-run.zs-flex-project"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

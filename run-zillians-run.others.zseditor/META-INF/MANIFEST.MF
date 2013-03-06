@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: com.zillians.dev.tools.flex.others.zseditor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.zillians.dev.tools.flex.others.zseditor.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors;bundle-version="3.6.1"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.jface.text,
+ org.eclipse.jface.text.rules,
+ org.eclipse.ui.editors.text
+Export-Package: com.zillians.dev.tools.flex.others.zseditor

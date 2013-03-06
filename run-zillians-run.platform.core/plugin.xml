@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.zillians.dev.tools.flex.platform.core.ActionSets"
+         name="%extension.name"
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            description="%actionSet.description"
+            id="com.zillians.dev.tools.flex.platform.core.actionSets"
+            label="%actionSet.label"
+            visible="true">
+         <action
+               class="com.zillians.dev.tools.flex.platform.core.zsgen.ZscriptGenAction"
+               icon="icons/zsgen.gif"
+               id="com.zillians.dev.tools.flex.platform.core.action-gen"
+               label="%action.label"
+               state="false"
+               style="push"
+               toolbarPath="zilliansActionSetsGroup"
+               tooltip="%action.tooltip">
+         </action>
+         <action
+               class="com.zillians.dev.tools.flex.platform.core.upload.UploadBundleAction"
+               icon="icons/upload.gif"
+               id="com.zillians.dev.tools.flex.platform.core.action-upload"
+               label="%action.label.0"
+               state="true"
+               style="push"
+               toolbarPath="zilliansActionSetsGroup"
+               tooltip="%action.tooltip.0">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         id="com.zillians.dev.tools.flex.platform.core.preferencePages"
+         name="%extension.name.0"
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="com.zillians.dev.tools.flex.platform.core.preferences.MainPreferencePage"
+            id="com.zillians.dev.tools.flex.platform.core.mainPreferencePages"
+            name="%page.name">
+      </page>
+      <page
+            category="com.zillians.dev.tools.flex.platform.core.mainPreferencePages"
+            class="com.zillians.dev.tools.flex.platform.core.preferences.EnvironmentSetPage"
+            id="com.zillians.dev.tools.flex.platform.core.envSetPage"
+            name="%page.name.0">
+      </page>
+   </extension>
+
+</plugin>

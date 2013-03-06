@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZILLIANS xmlns="http://www.w3school.com.cn"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="zillians-flex.xsd">
+	<!--Test-->
+	<GAMENAME>game</GAMENAME>
+	<GAMEID>9</GAMEID>
+	<SOURCE>
+		<FILE>local_player.zs</FILE>
+		<FILE>remote_player.zs</FILE>
+	</SOURCE>
+	<OUTDIR>generate</OUTDIR>
+</ZILLIANS>

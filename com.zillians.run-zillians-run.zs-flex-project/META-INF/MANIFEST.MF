@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name.0
+Bundle-SymbolicName: com.zillians.run-zillians-run.zs-flex-project; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.zillians.run_zillians_run.zs_flex_project.ZccActivator
+Bundle-Vendor: %Bundle-Vendor.0
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.ide,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ bin/,
+ src/
+Export-Package: com.zillians.run_zillians_run.zs_flex_project,
+ com.zillians.run_zillians_run.zs_flex_project.actions,
+ com.zillians.run_zillians_run.zs_flex_project.editors.zseditor,
+ com.zillians.run_zillians_run.zs_flex_project.editors.zxmleditor,
+ com.zillians.run_zillians_run.zs_flex_project.preferences
